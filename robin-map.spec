@@ -1,10 +1,10 @@
+%global debug_package %{nil}
 Name: robin-map
 Version: 1.4.0
 Release: 1
 Summary: C++ implementation of a fast hash map and hash set using robin hood hashing
 URL: https://github.com/Tessil/robin-map/
 License: MIT
-BuildArch: noarch
 BuildRequires: cmake make gcc-c++
 Source: https://github.com/Tessil/robin-map/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
