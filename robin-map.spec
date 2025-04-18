@@ -22,7 +22,6 @@ Summary: %{summary}.
 %autosetup
 
 %build
-export CMAKE_CXX_COMPILER=%{_bindir}/true
 %cmake -DPHMAP_BUILD_TESTS=OFF -DPHMAP_BUILD_EXAMPLES=OFF
 %cmake_build
 
